@@ -29,6 +29,7 @@ public class Hyperlink {
 			WebElement hyperlink = wd.findElement(By.linkText("Go to Dashboard"));
 			hyperlink.click();
 			wd.navigate().back();
+		wd.quit();
 			
 
 	}
